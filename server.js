@@ -19,7 +19,7 @@ app.get('/voice-synthesis', async (req, res) => {
         const response = await axios.post('https://api.elevenlabs.io/v1/text-to-speech', 
         {
             text: text,
-            voice_id: id || "default_voice_id", 
+            voice_id: id || "pNInz6obpgDQGcFmaJgB", 
         }, 
         {
             headers: {
