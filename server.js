@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const ELEVENLABS_API_KEY = 'sk_c148ac2e929ebd53e5d272930c65077d71a718a8d55fb754';
+const ELEVENLABS_API_KEY = 'sk_70f7050c8538f632d635afdb1b954b822a4e78fc758a22f4';
 
 
 app.get('/voice-synthesis', async (req, res) => {
